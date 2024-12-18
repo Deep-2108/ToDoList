@@ -84,6 +84,18 @@ row-gap: 4;
     margin-left: 45%;
     margin-right: 45%;
 }
+.data{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size:large;
+    row-gap:5;
+    background: #e0f1ff;
+    height: 1%;
+    width: 60%;
+    padding: 2%;
+}
 </style>
 <body>
     <h1 class="heading">ToDo List</h1>
@@ -92,6 +104,11 @@ row-gap: 4;
         <input placeholder="add a task..." class="inpt"> 
           <input type="date" class="date">
           <button class="add">Add</button>
+    </div>
+    <div class="data">
+        <h3>Task </h3>
+        <h3>Due Date</h3>
+         <h3>Update</h3>           
     </div>
     <div class="para"></div>
     </div>
