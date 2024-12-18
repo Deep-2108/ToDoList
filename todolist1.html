@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todolist version 1</title>
+</head>
+<style>
+    body{
+        background: rgb(230, 242, 252);
+    }
+.add{
+    background: #038009;
+    color: aliceblue;
+    font-size: large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 1%;
+    padding-bottom:1% ;
+    cursor: pointer;
+}
+.spn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    row-gap:5;
+    background: rgb(205, 231, 254);
+    height: 4%;
+    margin-bottom: 2%;
+    width: 60%;
+    padding: 3%;
+}
+.deleteClass{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size:large;
+    row-gap:5;
+    background: #e0f1ff;
+    height: 1%;
+    width: 60%;
+    padding: 2%;
+}
+.para{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 100vw;
+row-gap: 4;
+}
+.deleteBtn{
+    background: #c21d1d;
+    color: aliceblue;
+    font-size: large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 1%;
+    padding-bottom:1% ;
+    cursor: pointer;
+}
+.inpt{
+    font-size: large;
+
+}
+.main_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:rgb(230, 242, 252);
+    height:auto;
+    width: 100vw;
+}
+.heading{
+    align-self: center;
+    margin-left: 45%;
+    margin-right: 45%;
+}
+</style>
+<body>
+    <h1 class="heading">ToDo List</h1>
+    <div class="main_div">
+    <div class="spn">
+        <input placeholder="add a task..." class="inpt"> 
+          <input type="date" class="date">
+          <button class="add">Add</button>
+    </div>
+    <div class="para"></div>
+    </div>
+    <script src="todolist1.js"></script>
+</body>
+</html>
